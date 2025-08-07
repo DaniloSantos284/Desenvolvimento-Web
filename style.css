@@ -1,18 +1,26 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: Helvetica, sans-serif;
 }
 
 @media (min-width: 1025px){
 
 #header {
     display: flex;               /*Header*/
+    align-items: center;
+    justify-content: center;
 }
 
 #logoImg {
     width: 50px;
     height: 60px;               
     margin: 25px;
+}
+
+.welcomeHeader {
+    align-items: center;
+    justify-content: center;
 }
 
 #containerPai {                 /*Container Pai */
