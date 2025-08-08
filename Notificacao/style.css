@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+}
+
+#header {
+    display: flex;               /*Header*/
+    align-items: center;
+    justify-content: center;
+}
+
+#logoImg {
+    width: 50px;
+    height: 60px;               
+    margin: 25px;
+}
+
+.welcomeHeader {
+    align-items: center;
+    justify-content: center;
+}                              /*Fim do Header*/
+
+.eventAlert {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 37px;
+}
+
+.imageDiv {
+    margin-top: 31px;
+}
+
+.image {
+    width: 448.33px;
+    height: 235.36;
+    border-radius: 12px;
+}
+
+#lastRegister {
+    margin: 0 45px
+}
+
+.componentInfo {
+    width: 360px;
+    height: 70px;
+    background-color: #EAEAEA;
+    flex-direction: row;
+    align-items: center;
+}
+
+.componentPai {
+    flex-direction: row;
+    display: inline-flex;
+}
+
+.componentImg {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+
+.componentFilho {
+    width: 270px;
+    height: 50px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #EAEAEA;
+    border-radius: 12px;
+}
+
+.componentText {
+    align-items: center;
+    justify-content: center;
+}
